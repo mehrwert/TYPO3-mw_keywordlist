@@ -2,10 +2,10 @@
 defined('TYPO3_MODE') or die();
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
-    array(
+    [
         'LLL:EXT:mw_keywordlist/locallang_db.xml:tt_content.menu_type_pi1',
-        'mw_keywordlist_pi1'
-    ),
+        'mw_keywordlist_pi1',
+    ],
     'CType',
     'my_keywordlist'
 );
@@ -17,7 +17,7 @@ defined('TYPO3_MODE') or die();
 );
 
 // Configure the backend fields for the content element
-$GLOBALS['TCA']['tt_content']['types']['mw_keywordlist_pi1'] = array(
+$GLOBALS['TCA']['tt_content']['types']['mw_keywordlist_pi1'] = [
     'showitem' => '
          --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xml:palette.general;general,
          --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xml:palette.header;header,
@@ -28,4 +28,4 @@ $GLOBALS['TCA']['tt_content']['types']['mw_keywordlist_pi1'] = array(
          --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xml:palette.visibility;visibility,
          --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xml:palette.access;access,
       --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xml:tabs.extended
-');
+', ];

@@ -2,9 +2,6 @@
  * Javascript class for the mw_keywordlist extension.
  * Based on jQuery.
  *
- * @package		TYPO3
- * @subpackage	tx_mwkeywordlist
- * @version		$Id$
  * @author		mehrwert <typo3@mehrwert.de>
  * @license		GPL
  */

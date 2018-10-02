@@ -1,16 +1,5 @@
 <?php
-
-########################################################################
-# Extension Manager/Repository config file for ext "mw_keywordlist".
-#
-# Auto generated 10-08-2015 09:31
-#
-# Manual updates:
-# Only the data in the array - everything else is removed by next
-# writing. "version" and "dependencies" must not be touched!
-########################################################################
-
-$EM_CONF[$_EXTKEY] = array(
+$EM_CONF[$_EXTKEY] = [
     'title' => 'A-Z Keyword List',
     'description' => 'Extracts all keywords from the page\'s keyword field and displays a list of keywords and links the page title to the keyword related page.',
     'category' => 'plugin',
@@ -32,15 +21,15 @@ $EM_CONF[$_EXTKEY] = array(
     'author_company' => 'mehrwert intermediale kommunikation GmbH',
     'CGLcompliance' => '',
     'CGLcompliance_note' => '',
-    'constraints' => array(
-        'depends' => array(
+    'constraints' => [
+        'depends' => [
             'php' => '7.0.0-7.1.99',
             'typo3' => '8.7.8-8.7.99',
-        ),
-        'conflicts' => array(
-        ),
-        'suggests' => array(
-            't3jquery' => '2.0.0-0.0.0'
-        ),
-    )
-);
+        ],
+        'conflicts' => [
+        ],
+        'suggests' => [
+            't3jquery' => '2.0.0-0.0.0',
+        ],
+    ],
+];

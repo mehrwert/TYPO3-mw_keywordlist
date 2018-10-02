@@ -16,9 +16,12 @@
       "homepage": "https://www.mehrwert.de"
     }
   ],
-  "license": ["GPL-2.0-or-later"],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
   "require": {
-    "typo3/cms-core": ">=4.5.0,<8.1"
+    "php": ">=7.0.0",
+    "typo3/cms-core": "^8.7"
   },
   "replace": {
     "mw_keywordlist": "*"

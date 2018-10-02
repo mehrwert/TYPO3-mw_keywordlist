@@ -17,9 +17,13 @@ Latest code of EXT:mw_keywordlist is hosted on GitHub (https://github.com/mehrwe
 
 You need
 
-*   LAMP/MAMP/MNMP/your favorite Stack - with TYPO3 Versions 4.5 to 8.0
+*   LAMP/MAMP/MNMP/your favorite Stack - with TYPO3 Version 8.7-LTS
 
 ## Links
 
 * https://github.com/mehrwert/TYPO3-mw_keywordlist
 * https://www.mehrwert.de
+
+## Tools
+
+Please use `php-cs-fixer fix` before you push code.
